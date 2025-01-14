@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Пример API
 app.get('/api/tasks', (req, res) => {
-  res.json([{ id: 1, title: 'Learn Vite', completed: false }]);
+  res.json([{ id: 1, title: 'Learn Vite', completed: false }, { id: 2, title: 'Learn JS', completed: false }]);
 });
 
 // Запуск сервера

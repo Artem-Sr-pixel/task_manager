@@ -1,0 +1,13 @@
+
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.pnf{
+    font-size: 6rem;
+    font-weight: 600;
+}

@@ -1,0 +1,37 @@
+header{
+    background-color: var(--secondary-grey);
+    padding: .5rem 0;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+
+.logo{
+    font-size: 2rem;
+    margin: 0;
+    border-bottom: 3px solid var(--secondary-grey);
+}
+
+.logo:hover{
+    border-bottom: 3px solid var(--accent-color);
+    transition: .3s;
+}
+
+.navWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.singInBtn{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 2px solid var(--btn-links);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.singInBtn:hover{
+    background-color: var(--btn-links);
+}
