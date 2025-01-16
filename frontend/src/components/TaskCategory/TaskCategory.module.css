@@ -1,0 +1,9 @@
+.taskTitle{
+    /* background-color: var(--secondary-grey); */
+    padding: 5px 10px;
+    border-bottom: 3px solid rgb(122, 122, 122);
+}
+
+.taskTitle h2{
+    border-bottom: 1px solid var(--btn-links);
+}

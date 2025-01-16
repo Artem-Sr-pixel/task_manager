@@ -1,0 +1,14 @@
+.mainWrap {
+  height: 100%;
+  border-right: 3px solid var(--accent-color);
+}
+
+.mainInfo {
+  border-bottom: 3px solid rgb(108, 108, 108);
+  background-color: var(--dark-blue);
+  padding: 15px 15px;
+}
+
+.tasksNavigation {
+  background-color: var(--dark-blue);
+}

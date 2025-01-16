@@ -1,14 +1,24 @@
+import {  Route, Routes } from 'react-router-dom'
 import st from './SideBarMenu.module.css'
 
-function SideBarMenu() {
+interface SideBarMenuProps {
+    userName:string
+}
+
+function SideBarMenu({userName}:SideBarMenuProps) {
     return(
         <div className={st.mainWrap}>
             <div className={st.mainInfo}>
-                hello
+                {userName}
             </div>
 
             <div className={st.tasksNavigation}>
-                hi
+                <Routes>
+                    <Route/>
+                    <Route/>
+                    <Route/>
+                    <Route path='*' />
+                </Routes>
             </div>
         </div>
     )

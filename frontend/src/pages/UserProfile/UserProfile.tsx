@@ -1,3 +1,4 @@
+import MainTasksArea from '../../components/MainTasksArea/MainTasksArea'
 import SideBarMenu from '../../components/SideBarManu/SideBarMenu'
 import st from './UserProfile.module.css'
 
@@ -5,10 +6,10 @@ function UserProfile() {
     return(
         <div className={st.mainWrap}>
             <div className={st.sideBarMenuWrap}>
-                <SideBarMenu/>
+                <SideBarMenu userName='MyUserName'/>
             </div>
             <div className={st.taskMenu}>
-
+                <MainTasksArea/>
             </div>
         </div>
     )

@@ -1,0 +1,109 @@
+.task {
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 5px 0;
+  background-color: transparent;
+  transition: background-color 0.1s;
+}
+
+.task:hover {
+  background-color: rgba(128, 128, 128, 0.382);
+}
+
+.dragIcon {
+  width: 12px;
+}
+
+.deleteIcon {
+  width: 16px;
+  justify-self: flex-end;
+}
+
+.dragIcon:hover,
+.deleteIcon:hover {
+  cursor: pointer;
+}
+
+.input {
+  color: var(--secondary-text);
+  font-size: 1.2rem;
+  width: 50%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(103, 103, 103);
+}
+
+.priorityButton{
+    padding: 4px 8px;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid rgb(97, 97, 97);
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.priorityButton:hover{
+    background-color: rgb(97, 97, 97);
+}
+
+.dropdownMenu{
+    position: absolute;
+    background-color: var(--main-grey);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 10px;
+    width:auto;
+    z-index: 1;
+    padding: 5px 8px;
+}
+
+.dropdownMenu li{
+    cursor: pointer;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdownMenu li:hover{
+    background-color: rgba(128, 128, 128, 0.298);
+}
+
+.dropdownMenu li:not(:last-child){
+    border-bottom: 1px solid grey;
+}
+
+.dropdownMenu li:first-child{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.dropdownMenu li:last-child{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    display: block;
+    margin-right: 5px;
+}
+
+.circleRed{
+    background-color: red;
+}
+.circleYellow{
+    background-color: yellow;
+}
+.circleGreen{
+    background-color: green;
+}
