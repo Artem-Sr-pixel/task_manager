@@ -7,5 +7,7 @@
     /* border-radius: 10px; */
 }
 
-
+.workSpaceName{
+    border-bottom: 3px solid var(--accent-color);
+}
 

@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Authorization' element={<Authorization/>}/>
-        <Route path='/UserProfile' element={<UserProfile/>}/>
+        <Route path='/UserProfile/*' element={<UserProfile/>}/>
 
         {/* 404 page */}
         <Route path='*' element={<NotFoundPage/>}/>

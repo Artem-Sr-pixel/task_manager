@@ -12,3 +12,74 @@
 .tasksNavigation {
   background-color: var(--dark-blue);
 }
+
+.workSpaceTitle{
+  padding: 10px;
+  border-bottom: 1px solid var(--secondary-text);
+  background-color: var(--secondary-grey);
+}
+
+.createWorkSpaceArea{
+  padding: 0 0 0 10px;
+  color: grey;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--secondary-grey);
+  border-bottom: 1px solid var(--secondary-text);
+}
+
+.createWorkSpaceArea button{
+  font-size: 1.8rem;
+  line-height: 1rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: grey;
+  transition: transform .1s;
+}
+
+.createWorkSpaceArea button:hover{
+  transform: scale(1.2);
+}
+
+.createWorkSpaceArea input{
+  border: none;
+  outline: none;
+  background-color: rgb(49, 49, 49);
+  /* border-radius: 5px; */
+  color: white;
+  padding: 7px;
+  width: 100%;
+  height: 1.5rem;
+}
+.createWorkSpaceArea input:focus{
+  outline: none;
+  border: none;
+}
+
+.workSpacesNav a{
+  display: flex;
+  align-items: center;
+  background-color: rgba(45, 55, 72, 0.4);
+}
+
+.workSpacesNav a:hover{
+  background-color: rgba(33, 45, 64, 0.4)
+}
+
+.workSpaceItem{
+  padding: 10px;
+}
+
+.workSpaceIcon{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}

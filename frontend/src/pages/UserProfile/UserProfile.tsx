@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom'
 import MainTasksArea from '../../components/MainTasksArea/MainTasksArea'
 import SideBarMenu from '../../components/SideBarManu/SideBarMenu'
 import st from './UserProfile.module.css'
@@ -10,6 +11,7 @@ function UserProfile() {
             </div>
             <div className={st.taskMenu}>
                 <MainTasksArea/>
+                {/* <Outlet/> */}
             </div>
         </div>
     )
